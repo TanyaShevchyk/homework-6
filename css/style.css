@@ -1,0 +1,125 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #3399CC;
+    border: 25px solid #2B81AC;
+    min-height: 100vh;
+
+}
+
+.container {
+    display: block;
+    max-width: 1166px;
+    margin-left: 135px;
+    margin-top: 63px;
+    margin-right: 135px;
+    margin-bottom: 116px;
+}
+
+h1 {
+    display: block;
+    align-items: center;
+    margin-top: 61px;
+    margin-bottom: 44px;
+    color: #FFFF;
+    size: 21px;
+}
+
+.wi wi-sunrise {
+    padding: auto;
+
+}
+
+ul {
+    width: 1170px;
+    height: 592px;
+    color: #FFFF;
+    font-size: 0;
+    margin-bottom: 23px;
+}
+
+ul li {
+    display: inline-block;
+    border: 4px solid #FFFF;
+    font-size: 24px;
+    height: 147px;
+    text-align: center;
+    padding-top: 31px;
+    cursor: url("../img/cursor.png"), pointer;
+}
+
+.city1 {
+    width: 50%;
+    background-color: #3399CC;
+}
+
+.city2 {
+    width: 25%;
+    background-color: #33CCCC;
+}
+
+.city3 {
+    width: 25%;
+    background-color: #996699;
+}
+
+.city4 {
+    width: 25%;
+    background-color: #C24747;
+}
+
+.city5 {
+    width: 25%;
+    background-color: #E2674A;
+}
+
+.city6 {
+    width: 25%;
+    background-color: #FFCC66;
+}
+
+.city7 {
+    width: 25%;
+    background-color: #99CC99;
+}
+
+.city8 {
+    width: 25%;
+    background-color: #669999;
+}
+
+.city9 {
+    width: 50%;
+    background-color: #CC6699;
+}
+
+.city10 {
+    width: 25%;
+    background-color: #339966;
+}
+
+.city11 {
+    width: 100%;
+    background-color: #666699;
+}
+
+.info {
+    margin: auto;
+    opacity: 70%;
+}
+
+.wi {
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 42px;
+}
+
+.wishes {
+    margin-top: 43px;
+    font-size: 16px;
+    color: #FFFF;
+}
