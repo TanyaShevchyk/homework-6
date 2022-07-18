@@ -1,7 +1,7 @@
 * {
     scroll-behavior: smooth;
     box-sizing: border-box;
-
+    transition: all .1s ease-in;
 }
 
 body {
@@ -13,18 +13,16 @@ body {
 
 .container {
     display: block;
-    max-width: 1166px;
-    margin-left: 135px;
-    margin-top: 63px;
-    margin-right: 135px;
-    margin-bottom: 116px;
+    max-width: 1170px;
+    align-items: center;
+    margin: auto;
 }
 
 h1 {
     display: block;
     align-items: center;
     margin-top: 61px;
-    margin-bottom: 44px;
+    margin-bottom: 42px;
     color: #FFFF;
     size: 21px;
 }
@@ -35,81 +33,102 @@ h1 {
 }
 
 ul {
-    width: 1170px;
+    max-width: 1170px;
     height: 592px;
     color: #FFFF;
     font-size: 0;
-    margin-bottom: 23px;
+    margin-bottom: 43px;
+    border: 2px solid #FFFF;
+    ;
 }
 
 ul li {
     display: inline-block;
-    border: 4px solid #FFFF;
     font-size: 24px;
     height: 147px;
     text-align: center;
     padding-top: 31px;
+    padding-bottom: 35px;
     cursor: url("../img/cursor.png"), pointer;
 }
 
-.city1 {
-    width: 50%;
-    background-color: #3399CC;
+.color-70B8DB {
+    background-color: #70B8DB;
 }
 
-.city2 {
-    width: 25%;
+.color-33CCCC {
     background-color: #33CCCC;
 }
 
-.city3 {
-    width: 25%;
+.color-996699 {
     background-color: #996699;
 }
 
-.city4 {
-    width: 25%;
+.color-C24747 {
     background-color: #C24747;
 }
 
-.city5 {
-    width: 25%;
+.color-E2674A {
     background-color: #E2674A;
 }
 
-.city6 {
-    width: 25%;
+.color-FFCC66 {
     background-color: #FFCC66;
 }
 
-.city7 {
-    width: 25%;
+.color-99CC99 {
     background-color: #99CC99;
 }
 
-.city8 {
-    width: 25%;
+.color-669999 {
     background-color: #669999;
 }
 
-.city9 {
-    width: 50%;
+.color-CC6699 {
     background-color: #CC6699;
 }
 
-.city10 {
-    width: 25%;
+.color-339966 {
     background-color: #339966;
 }
 
-.city11 {
-    width: 100%;
+.color-666699 {
     background-color: #666699;
 }
 
+#city1,
+#city9 {
+    width: 50%;
+    border-right: 2px solid #FFFF;
+    border-bottom: 2px solid #FFFF;
+}
+
+#city2,
+#city4,
+#city5,
+#city6,
+#city8 {
+    width: 25%;
+    border-right: 2px solid #FFFF;
+    border-bottom: 2px solid #FFFF;
+}
+
+#city3,
+#city7,
+#city10 {
+    width: 25%;
+    border-bottom: 2px solid #FFFF;
+}
+
+#city11 {
+    width: 100%;
+}
+
+
 .info {
-    margin: auto;
+    display: block;
     opacity: 70%;
+    justify-content: center;
 }
 
 .wi {
@@ -119,7 +138,15 @@ ul li {
 }
 
 .wishes {
-    margin-top: 43px;
+    margin-bottom: 43px;
     font-size: 16px;
     color: #FFFF;
+}
+
+ul:hover li {
+    opacity: 0.5;
+}
+
+li:hover {
+    opacity: 1 !important;
 }
