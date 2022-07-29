@@ -134,6 +134,10 @@ ul li {
     justify-content: center;
 }
 
+h1 .wi {
+    font-size: 27px;
+}
+
 .wi {
     margin-top: 10px;
     margin-left: 8px;
